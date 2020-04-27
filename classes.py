@@ -7,7 +7,9 @@ class menu:
     def start(self):
         self.print_menu()
         self.option = self.select_option("\nEingabe: ")
-        if  self.option == 2:
+        if self.option == 1:
+            self.start()
+        elif  self.option == 2:
             self.decrypt()
         elif self.option == 0:
             sys.exit()
@@ -15,7 +17,7 @@ class menu:
             self.start()
 
     def print_menu(self):
-        print("\n\n\n2: Entschlüsseln\n0: Beenden")
+        print("\n\n\n1: Verschlüsseln (Not aviable)\n2: Entschlüsseln\n0: Beenden")
 
     def select_option(self, user_prompt):
         try:
