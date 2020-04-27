@@ -15,7 +15,7 @@ class menu:
             self.start()
 
     def print_menu(self):
-        print("\n\n\n2: Verschlüsseln\n0: Beenden")
+        print("\n\n\n2: Entschlüsseln\n0: Beenden")
 
     def select_option(self, user_prompt):
         try:
