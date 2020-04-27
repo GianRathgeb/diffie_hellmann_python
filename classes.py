@@ -24,10 +24,10 @@ class menu:
             self.confirmation = int(input(user_prompt))
             return self.confirmation
         except ValueError:
-            print("Keine korrekte eingabe")
+            print("Keine korrekte Eingabe")
             self.select_option(user_prompt)
         except IndexError:
-            print("Keine korrekte eingabe")
+            print("Keine korrekte Eingabe")
             self.select_option(user_prompt)
 
     def decrypt(self):
