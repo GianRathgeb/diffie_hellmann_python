@@ -1,2 +1,6 @@
-print("Hello World")
-print("1")
+import classes
+
+program = classes.menu()
+
+while program.status:
+    program.start()
