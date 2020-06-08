@@ -1,6 +1,6 @@
-import classes
+from classes import menu
 
-program = classes.menu()
+program = menu()
 
 while program.status:
     program.start()
